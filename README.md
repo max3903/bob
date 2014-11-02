@@ -11,10 +11,7 @@ Objectives
 Installation
 ------------
 
-* Install git and python
-* Create a git repository for your instance using the example
-* Clone it in a directory named git/bob
-* Run git/bob/tools/bob install
+* See example/README.md
 
 Scénarios
 ---------

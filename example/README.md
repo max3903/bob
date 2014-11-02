@@ -8,14 +8,6 @@ Objectives
 * Support many OpenERP/Odoo versions (7, 8, master)
 * Support many GNU/Linux distributions and version (Ubuntu 12.04, Ubuntu 14.04, CentOS 6, CentOS 7, etc.)
 
-Installation
-------------
-
-* Install git and python
-* Create a git repository for your instance using the example
-* Clone it in a directory named git/bob
-* Run git/bob/tools/bob install
-
 Scénarios
 ---------
 

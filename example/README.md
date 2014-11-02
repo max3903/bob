@@ -1,12 +1,21 @@
 Bob, the Odoo builder
 =====================
 
-Objectives
-----------
+This is the specific part of an Odoo installation. It extends scripts and configurations set in the main bob repository.
 
-* Centralize common scripts and configuration files among many Odoo installations
-* Support many OpenERP/Odoo versions (7, 8, master)
-* Support many GNU/Linux distributions and version (Ubuntu 12.04, Ubuntu 14.04, CentOS 6, CentOS 7, etc.)
+Installation
+------------
+
+* Install git and python
+* Create a git repository for your instance with the content of this directory
+* Clone it in a directory named git/bob (You should have git/bob/addons and git/bob/tools)
+* Adapt git/bob/tools/buildout.cfg to your needs (Odoo version, repositories)
+* Rename git/bob/addons/company to git/bob/addons/<instance>
+* Adapt git/bob/addons/<instance>/__openerp__.py with the dependencies you want
+* Run tools/bob install
+* Run bin/start_odoo
+* Go to http://localhost:9999, create a database with 'admin' as a master password
+* Install module <instance>
 
 Scénarios
 ---------

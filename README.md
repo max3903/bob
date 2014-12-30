@@ -16,6 +16,12 @@ Installation
 Scénarios
 ---------
 
+Create
+
+    $ bob create
+
+* Copy the example directory in the parent folder
+
 Install
 
     $ bob install

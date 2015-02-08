@@ -29,6 +29,12 @@ Install
 * Install the package requirements of the GNU/Linux distribution
 * Execute the installation of Odoo with the buildout.cfg of the instance, which extends the one from Bob
 
+Freeze
+
+    $ bob freeze
+    
+ * Generate a freeze.cfg file, extending buildout.cfg and setting version of librairies and revision number of branches
+
 Deploy
 
     $ bob deploy
